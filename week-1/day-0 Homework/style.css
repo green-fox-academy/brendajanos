@@ -1,0 +1,53 @@
+body {
+  background-image: url("./topography.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 512px 512px;
+  font-family: "consolas";
+
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  padding: 0 10%;
+  margin-top: 140px;
+}
+
+#header-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10%;
+}
+
+#header {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  background: #333333;
+  top: 0;
+}
+
+#header a {
+  float: right;
+  display: block;
+  color: #ff0099;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+}
+
+#dashes {
+  margin: 50px 0;
+  text-align: center;
+}
+#tech {
+  text-align: center;
+}
+h3 {
+  color: #ff0099;
+  font-family: "courier";
+}
+h4 {
+  font-size: 125%;
+}
