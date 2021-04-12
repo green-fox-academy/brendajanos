@@ -21,3 +21,5 @@ for (let i = 1; i <= lineCount; i++) {
        } 
       console.log(stars); 
      } 
+
+    
