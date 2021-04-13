@@ -9,8 +9,9 @@ export{}
 
 let numbers=[1,2,3,8,5,6]
 
-let test= numbers.map(function(e){
-    return numbers[3]=4;
+let test= numbers.map(function(e, index) {
+    if(index === 3) return 4
+    return e
 });
 
-console.log(numbers[3]);
+console.log(test);
