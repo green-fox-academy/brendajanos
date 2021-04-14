@@ -9,7 +9,7 @@ export{}
 
 let numbers=[1,2,3,8,5,6]
 
-let test= numbers.map(function(e, index) {
+let test= numbers.map ((e, index) => {
     if(index === 3) return 4
     return e
 });
