@@ -41,7 +41,8 @@ myMap.set(65,"A")
 myMap.set(66,"B")
 myMap.set(67,"C")
 
-//console.log(myMap);
+console.log(myMap);
+
 
 let myMap1 = new Map([
     [97,'a'],
@@ -52,23 +53,4 @@ let myMap1 = new Map([
     [67,'C']
 ]);
 
-/*console.log(myMap1);*/
-
-
-let oboa = {
-    szoveg: "Helloka",
-    kutya: 'Maja',
-    szam: 7,
-    bulin: true,
-    jason: {
-        nev: 'Jason'
-    },
-    print: ()=>{
-        console.log(oboa.jason);
-    }
-};
-
-console.log(oboa.print());
-
-
-
+console.log(myMap1);

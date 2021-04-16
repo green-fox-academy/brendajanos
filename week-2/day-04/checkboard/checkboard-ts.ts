@@ -22,7 +22,7 @@ function drawCheck(ctx:CanvasRenderingContext2D, squareSize:number, X:number, Y:
 
     for (let j = 0; j < X; j++)
         for (let i = 0; i < Y; i++) {
-            if  ((i % 2 != 0 && j % 2 != 0) ||(i % 2  ==0 && j % 2 == 0))
+            if  ((i % 2 != 0 && j % 2 != 0) || (i % 2  ==0 && j % 2 == 0))
            ctx.fillStyle = whiteSquareColor
             else ctx.fillStyle = blackSquareColor
             ctx.fillRect(i * squareSize, j * squareSize, squareSize, squareSize)
