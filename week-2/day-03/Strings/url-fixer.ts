@@ -8,3 +8,4 @@ let url: string = 'https//www.reddit.com/r/nevertellmethebots';
     let newText = url.replace('https//www.reddit.com/r/nevertellmethebots', 'https://www.reddit.com/r/nevertellmetheodds');
 
     console.log(newText);
+

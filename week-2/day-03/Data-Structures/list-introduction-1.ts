@@ -20,8 +20,7 @@ console.log(names);
 console.log(names.length);
 
 for (let a=0 ; a < names.length ; a++)
-
-console.log((a+1) + ": " + names[a]);
+    console.log((a+1) + ": " + names[a]);
 
 let removed = names.splice(2);
 console.log(names)
