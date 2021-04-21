@@ -13,4 +13,4 @@ let test= numbers.map(function(e){
     return numbers[3]=4;
 });
     
-    console.log(test[3]);
+    console.log(numbers);

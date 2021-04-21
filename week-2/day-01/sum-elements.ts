@@ -6,6 +6,6 @@ export{}
 
 let numbers =[54,23,66,12];
 console.log(
-   numbers.reduce((a, b) => a + b, 0)
+   numbers.reduce((a, b) => a + b)
   )
  

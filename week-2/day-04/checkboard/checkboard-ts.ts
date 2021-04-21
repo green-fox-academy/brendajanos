@@ -30,3 +30,4 @@ function drawCheck(ctx:CanvasRenderingContext2D, squareSize:number, X:number, Y:
 }
  
 drawCheck(ctx, Square, A, B)
+
