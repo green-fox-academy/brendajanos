@@ -11,7 +11,10 @@ let pokemonOfAsh: Pokemon[] = initializePokemon();
 let wildPokemon: Pokemon = new Pokemon('Oddish', 'leaf', 'water');
 
 // Which pokemon should Ash use?
-
+ function chooseEffective(pokemonOfAsh: Pokemon[],wildPokemon: Pokemon) : string {
+    let effectivePokemon = pokemonOfAsh.find((pokemon)=>pokemon.isEffectiveAgainst(wildPokemon)) 
+    return effectivePokemon.name
+ }
 // Implement the following `chooseEffective` function which will choose the most effective pokemon for Ash
 console.log(`I choose you!, ${chooseEffective(pokemonOfAsh, wildPokemon)}`);
 
@@ -20,7 +23,7 @@ function initializePokemon(): Pokemon[] {
         new Pokemon('Balbasaur', 'leaf', 'water'),
         new Pokemon('Pikatchu', 'electric', 'water'),
         new Pokemon('Charizard', 'fire', 'leaf'),
-        new Pokemon('Balbasaur', 'water', 'fire'),
+        new Pokemon('Squrtle', 'water', 'fire'),
         new Pokemon('Kingler', 'water', 'fire')
     ];
 }
