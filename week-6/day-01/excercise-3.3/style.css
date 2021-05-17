@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  display: flex;
+  align-items:flex-end;
+  justify-content:flex-end;
+  background: yellow;
+  height: 300px;
+  column-gap: 10px;
+}
+
+.item{
+  list-style: none;
+  background: purple;
+  height: 100px;
+  width: 100px;
+}

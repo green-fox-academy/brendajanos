@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 600px;
+  width: 600px;
+  background: yellow;
+}
+
+.item {
+  align-self:center;
+  height: 100px;
+  width: 100px;
+  flex-wrap:wrap;
+}
+
+
+
+.purple {
+  background: purple;
+  justify-content: center;
+  align-items: center;
+}
