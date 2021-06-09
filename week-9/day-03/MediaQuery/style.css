@@ -1,9 +1,9 @@
 .container {
-  width: 760px;
-  height: 190px;
   display: flex;
-  flex-direction: row;
+  width: 760px;
   align-items: stretch;
+  height: 190px;
+  flex-direction: row;
 }
 
 .green_box {
