@@ -1,0 +1,32 @@
+.container {
+  width: 760px;
+  height: 190px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.green_box {
+  flex-grow: 1;
+  height: 100%;
+  background-color: #51d400;
+}
+
+.yellow_box {
+  flex-grow: 2;
+  height: 100%;
+  background-color: #ffd62a;
+}
+
+.purple_box {
+  flex-grow: 1;
+  height: 100%;
+  background-color: #b02aff;
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    flex-direction: column;
+    height: 300px;
+  }
+}
